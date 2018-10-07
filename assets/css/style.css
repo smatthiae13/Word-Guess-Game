@@ -1,0 +1,87 @@
+
+#background-image {
+    background-image: url ("http://moto.zombdrive.com/images1600_/moto-morini-3-12-l-8.jpg");
+    background-repeat: repeat;
+    
+
+}
+ul
+{
+    list-style: none;
+}
+li{
+    display: inline;
+    line-height: 1.5px;
+}
+nav li:not(:first-child) > :only-child,
+nav ul > :first-child a{
+   text-decoration: none;
+   font-size:1.4em !important;
+   outline:1px solid blue;
+   padding:8px;
+   letter-spacing:0.9px;
+   margin-left:18px;
+}  
+nav li:not(:first-child) > :only-child{
+   color:blue;
+}
+nav ul > :first-child a{
+  color:white !important;
+  background:blue;
+}
+
+
+alphabet {
+    
+    margin:15px auto;
+    padding:0;
+    max-width:900px;
+    text-align: center;
+  }
+  
+  #alphabet li {
+    float:left;
+    margin: 0 10px 10px 0;
+    list-style:none;
+    width:35px;
+    height:30px;
+    padding-top:10px;
+    background:rgb(92, 180, 169);
+    
+    cursor:pointer;
+    
+    border: solid 1px white;
+  }
+  button{
+  
+    background:rgb(92, 180, 169);
+    color:white;
+    border: solid 1px white;
+    text-decoration:none;
+    cursor:pointer;
+    font-size:1.2em;
+    padding:18px 10px;
+    width:180px;
+    margin: 10px;
+    outline: none;
+    
+      
+  }
+  h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+   margin:5px 0;
+}
+
+h1 {
+	font-size: 2.6em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+p{
+  font-size: 1.6em;
+}
